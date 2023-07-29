@@ -19,20 +19,40 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <title>Minta doksi</title>
 </head>
 
 <body>
 
-    <h1>Weboldal címe avagy az állatorvosi ló</h1>
-    <h2>Alcím</h2>
-    <p>Bekezdés</p>
+    <h1>Weboldal címe avagy az állatorvosi ló H1</h1>
+
+    <h2>alcímek,bekezdések-paragrafusok, listák, spanok, képek, táblázatok H2</h2>
+
+    <h3>Alcím 3</h3>
+
+    <h4>Alcím 4</h4>
+
+    <h5>Alcím 5</h5>
+
+    <h6>Alcím 6</h6>
+
+    <figure>
+      <img src="allatorvosi_lo.png" alt="Állatorvosi ló" width="300px" height="200px"/>
+      <figcaption>Állatorvosi ló<figcaption>
+        
+    </figure>
+
+
+
+    <h2>Alcím H2</h2>
+    <p class="one">Bekezdés Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quam id numquam vitae obcaecati neque labore nesciunt nam consectetur facere autem doloremque dolore consequatur fugit, aut sed molestiae reprehenderit voluptatibus.</p>
 
     <h6>Apró betűs megjegyzés</h6>
-    <p>Bekezdés</p>
-    <p>Bekezdés</p>
+    <p class="two"> Bekezdés Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ullam eos quia. Nesciunt fugit odio dicta quasi dolorem ullam quam repudiandae culpa dignissimos numquam aperiam nisi tempora aut, explicabo facilis!</p>
+    <p class="three">Bekezdés Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt optio accusamus libero ipsum quidem cupiditate quos culpa iste rem praesentium dolore vitae nam dolorem nihil iusto, et quisquam architecto officia!</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae a at vero autem dolorem. 
+    <p class="four">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae a at vero autem dolorem. 
         Ea minus culpa molestias veritatis! Aut impedit repellendus, natus quidem illo dolore, 
         quis sunt perspiciatis ipsa quas optio tenetur architecto quia voluptate quam dolor maxime 
         laborum exercitationem atque hic aperiam culpa commodi. Sequi soluta quo ea dicta vel aut 
@@ -51,8 +71,8 @@
            tempora reiciendis. Autem eligendi, est id animi unde hic sit, quod, cumque rerum illum deleniti!
 
     </p>
-    <p>Bekezdés</p>
-    <p contenteditable="true">
+    <p class="five">Bekezdés Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perspiciatis eligendi. Recusandae nobis culpa maiores magni explicabo obcaecati tenetur nisi blanditiis molestiae commodi, voluptates saepe illo, ipsam amet odit dolores!</p>
+    <p class="one" contenteditable="true">
         Ez egy szerkeszthető bejegyzés
         </p>
 
@@ -61,36 +81,36 @@
         <span>a</span>
         <span>span-ek</span>
 
-        <p>
+        <p class="two">
             <bdo dir="ltr">Az alábbi parancs fordítja meg a szöveget</bdo>
         </p>
 
-        <p>
+        <p class="three">
             <bdo dir="rtl">Én megmondtam, hogy meg fogom mondani, hogy én megmondtam</bdo>
         </p>
 
-        <ul>
+        <ul class="one">
             <li>Íme egy számozatlan lista ul és li elemekkel</li>
             <li>Kávé</li>
             <li>Tea</li>
             <li>Tej</li>
           </ul>
 
-          <ol>
+          <ol class="two">
             <li>Ez egy számozott lista ol és li elemekkel</li>
             <li>Kávé</li>
             <li>Tea</li>
             <li>Tej</li>
           </ol>
 
-          <ol start="50">
+          <ol class="three" start="50">
             <li>Itt ol start="50" paranccsal megmondom, hogy mivel kezdődjön a lista számozása</li>
             <li>Kávé</li>
             <li>Tea</li>
             <li>Tej</li>
           </ol>
 
-          <ol reversed="reversed">
+          <ol class="four" reversed="reversed">
             <li>ol reversed="reversed" paranccsal megfordítom a listát</li>
             <li>Kávé</li>
             <li>Tea</li>
@@ -99,7 +119,7 @@
 
           <h3>definíciós lista következik</h3>
 
-          <dl>
+          <dl class="five">
             <dt>fogalom</dt>
               <dd>leírás</dd>
             <dt>fogalom2</dt>
@@ -110,18 +130,99 @@
 
           <h3>még egy definíciós lista</h3>
 
-          <dl>
+          <dl class="one">
             <dt>Kávé</dt>
               <dd>fekete forró ital</dd>
             <dt>Tej</dt>
               <dd>Fehér hideg ital</dd>
           </dl>
 
+          <h2>Képek</h2>
 
-        <p><th>"Egyszerű tablazat"</th>
-            <td>
-                
-            </td></p>
+          <figure class="picture">
+            <img class="imagine" src="szülinap.jpg" alt="Festmény magamnak szülinapra" width="150px" height="200px"/>
+            <figcaption>Szülinap<figcaption>
+              
+          </figure>
+
+
+          <table border = 1 summary="Ez a táblázat bemutatja a család spórolásának eseményeit">
+            <caption>Költségvetés</caption>
+            <tr>
+              <th>Hónap</th>
+              <th>Spórolás</th>
+            </tr>
+            <tr>
+              <td>Január</td>
+              <td>1000 Ft</td>
+            </tr>
+          </table>
+      
+
+
+
+          <table border="1">
+            <tr>
+              <th rowspan="2">Adatok</th>
+              <th>Hónap</th>
+              <th>Spórolás</th>
+            </tr>
+            <tr>
+              <td>Január</td>
+              <td>1000 Ft</td>
+            </tr>
+          </table>
+
+
+
+          <table class="table">
+            <colgroup>
+              <col span="2" style="background-color :rgb(54,96,5)">
+              <col style="background-color : rgb(187,223,24)">
+            </colgroup>
+            <tr>
+              <th>No.</th>
+              <th>Név</th>
+              <th>Település</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Nagy József</td>
+              <td>Szolnok</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Peres Ferenc</td>
+              <td>Szeged</td>
+            </tr>
+          </table>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Név</th>
+      <th>Fizetés</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nagy János</td>
+      <td>3850000</td>
+    </tr>
+    <tr>
+      <td>Kemény Ferenc</td>
+      <td>2870000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Összesen</td>
+      <td>6720000</td>
+    </tr>
+  </tfoot>
+</table>
+
     
 </body>
 </html>

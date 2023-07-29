@@ -1,0 +1,141 @@
+h1 {
+    text-align: center;
+    color:11,35,1;
+    background-color: rgb(230,230,206);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    
+} 
+h2{
+    text-align: center;
+    color:11,35,1;
+    background-color: rgb(187,223,24);
+    text-decoration-style: dotted;
+    text-decoration: underline;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+h3{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration: underline;
+    text-decoration: solid;
+    background-color: rgb(112,157,11);
+    color:11,35,1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+    
+}
+h4{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration: underline;
+    background-color: rgb(54,96,5);
+    color:11,35,1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h5{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration: underline;
+    background-color: rgb(11,35,1);
+    color:grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+h6{
+    text-align: center;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.one {
+ 
+    background-image: linear-gradient(rgb(230,230,206), rgb(187,223,24));
+    color: rgb(41, 41, 39);
+   
+}
+.two {
+    background-image: linear-gradient(rgb(187,223,24), rgb(112,157,11));
+    color: antiquewhite;
+  
+}
+.three {
+    background-image: linear-gradient(rgb(112,157,11), rgb(54,96,5));
+
+    color: antiquewhite;
+  
+}
+.four {
+    background-color: rgb(54,96,5);
+    color: azure;
+ 
+
+}
+.five {
+    background-color: rgb(11,35,1);
+    color: beige;
+   
+}
+
+
+
+
+
+
+
+
+table{
+   
+    text-decoration-line: inherit;
+    background-color: rgb(165, 197, 133);
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+    
+}
+
+p{
+    
+    border-radius: 5px;
+    
+
+}
+
+
+    body {
+        background-image: url(hatterkep_viragok.png);
+        background-size: 50px 50px;
+        background-repeat: repeat-x, repeat-y;
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px #888888;
+       
+      }
+
+      p {
+        text-decoration: underline;
+        text-decoration-color: 112,157,11;
+      }
+
+      span{
+        background-color: rgb(54,96,5);
+        color: antiquewhite;
+      }
+
+      .picture{
+        border-radius: 5px;
+        box-shadow: 10px 10px 5px #888888;
+        background-color: rgb(54,96,5);
+      }
+      img{
+        border-radius: 5px;
+        
+        
+      }
+
+     
+
